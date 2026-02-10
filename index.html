@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nuestro Amor</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>💖 Bienvenido a Nuestro Rincón 💖</h1>
+    <p>Un espacio para celebrar nuestro amor y recuerdos</p>
+  </header>
+
+  <section id="contador">
+    <h2>Cuenta regresiva hacia nuestro aniversario</h2>
+    <div id="time">
+      <span id="years">0</span> años 
+      <span id="months">0</span> meses 
+      <span id="days">0</span> días 
+      <span id="hours">0</span> horas 
+      <span id="seconds">0</span> segundos
+    </div>
+  </section>
+
+  <section id="acciones">
+    <button id="videoBtn">Ver Video Especial</button>
+    <button id="recuerdosBtn">Recuerdos</button>
+  </section>
+
+  <section id="recuerdos" class="hidden">
+    <h2>Calendario de Recuerdos</h2>
+    <input type="date" id="fechaRecuerdo">
+    <div id="contenidoRecuerdo"></div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
