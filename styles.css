@@ -1,0 +1,57 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #ffdde1, #ee9ca7);
+  color: #4a2c2a;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-bottom: 2px solid #d46a6a;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #b23a48;
+}
+
+#contador {
+  margin: 2rem 0;
+  font-size: 1.2rem;
+}
+
+#acciones button {
+  margin: 1rem;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #b23a48;
+  color: white;
+  transition: background 0.3s;
+}
+
+#acciones button:hover {
+  background-color: #d46a6a;
+}
+
+#recuerdos {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+#contenidoRecuerdo img {
+  max-width: 300px;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
